@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cmard\\Desktop\\Desarrollo\\RazorPagePizza\\RazorPagePizza.csproj": {}
+    "C:\\Users\\cmard\\OneDrive\\Documentos\\Desarrollo\\Csharp\\RazorPagePizza\\RazorPagePizza.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cmard\\Desktop\\Desarrollo\\RazorPagePizza\\RazorPagePizza.csproj": {
+    "C:\\Users\\cmard\\OneDrive\\Documentos\\Desarrollo\\Csharp\\RazorPagePizza\\RazorPagePizza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmard\\Desktop\\Desarrollo\\RazorPagePizza\\RazorPagePizza.csproj",
+        "projectUniqueName": "C:\\Users\\cmard\\OneDrive\\Documentos\\Desarrollo\\Csharp\\RazorPagePizza\\RazorPagePizza.csproj",
         "projectName": "RazorPagePizza",
-        "projectPath": "C:\\Users\\cmard\\Desktop\\Desarrollo\\RazorPagePizza\\RazorPagePizza.csproj",
+        "projectPath": "C:\\Users\\cmard\\OneDrive\\Documentos\\Desarrollo\\Csharp\\RazorPagePizza\\RazorPagePizza.csproj",
         "packagesPath": "C:\\Users\\cmard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmard\\Desktop\\Desarrollo\\RazorPagePizza\\obj\\",
+        "outputPath": "C:\\Users\\cmard\\OneDrive\\Documentos\\Desarrollo\\Csharp\\RazorPagePizza\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cmard\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\cmard\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -14,3 +14,15 @@ httprepl https://localhost:[PORT] = se conecta al localhost del puerto indicado
 
 dotnet dev-certs https --trust = Instala los certificados de confianza
 
+get or get id(get 3)
+
+post:
+post -c "{"name":"Hawaii", "isGlutenFree":false}"
+
+put:
+put 3 -c "{"id":3, "name":"Hawaiian", "isGlutenFree":false}"
+
+delete:
+
+delete id (delete 3)
+
