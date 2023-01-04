@@ -2,6 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
+using WebApiAutores.Controllers;
+using WebApiAutores.Servicios;
 
 namespace WebApiAutores
 {
@@ -9,6 +11,7 @@ namespace WebApiAutores
     {
         public Startup(IConfiguration configuration)
         {
+            var autoresController = new AutoresController(new AplicationDBcontext(null));
             Configuration = configuration;
         }
 
@@ -16,10 +19,14 @@ namespace WebApiAutores
 
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
             services.AddDbContext<AplicationDBcontext>(options => 
                 options.UseSqlServer(Configuration.GetConnectionString("defaultConnection")));
+
+            services.AddTransient<IServicio, ServicioA>(); //cuando una clase necesite un servicio pasarle el servicio que se seleccion en este caso servicioA
+            //services.AddTransient<ServicioA>(); //ambas maneras funcionan
 
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen(c =>
