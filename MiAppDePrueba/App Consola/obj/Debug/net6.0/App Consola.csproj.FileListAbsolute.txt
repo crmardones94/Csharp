@@ -1,0 +1,15 @@
+C:\Users\cmard\OneDrive\Documentos\Desarrollo\Csharp\MiAppDePrueba\App Consola\bin\Debug\net6.0\App Consola.exe
+C:\Users\cmard\OneDrive\Documentos\Desarrollo\Csharp\MiAppDePrueba\App Consola\bin\Debug\net6.0\App Consola.deps.json
+C:\Users\cmard\OneDrive\Documentos\Desarrollo\Csharp\MiAppDePrueba\App Consola\bin\Debug\net6.0\App Consola.runtimeconfig.json
+C:\Users\cmard\OneDrive\Documentos\Desarrollo\Csharp\MiAppDePrueba\App Consola\bin\Debug\net6.0\App Consola.dll
+C:\Users\cmard\OneDrive\Documentos\Desarrollo\Csharp\MiAppDePrueba\App Consola\bin\Debug\net6.0\App Consola.pdb
+C:\Users\cmard\OneDrive\Documentos\Desarrollo\Csharp\MiAppDePrueba\App Consola\obj\Debug\net6.0\App Consola.csproj.AssemblyReference.cache
+C:\Users\cmard\OneDrive\Documentos\Desarrollo\Csharp\MiAppDePrueba\App Consola\obj\Debug\net6.0\App Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cmard\OneDrive\Documentos\Desarrollo\Csharp\MiAppDePrueba\App Consola\obj\Debug\net6.0\App Consola.AssemblyInfoInputs.cache
+C:\Users\cmard\OneDrive\Documentos\Desarrollo\Csharp\MiAppDePrueba\App Consola\obj\Debug\net6.0\App Consola.AssemblyInfo.cs
+C:\Users\cmard\OneDrive\Documentos\Desarrollo\Csharp\MiAppDePrueba\App Consola\obj\Debug\net6.0\App Consola.csproj.CoreCompileInputs.cache
+C:\Users\cmard\OneDrive\Documentos\Desarrollo\Csharp\MiAppDePrueba\App Consola\obj\Debug\net6.0\App Consola.dll
+C:\Users\cmard\OneDrive\Documentos\Desarrollo\Csharp\MiAppDePrueba\App Consola\obj\Debug\net6.0\refint\App Consola.dll
+C:\Users\cmard\OneDrive\Documentos\Desarrollo\Csharp\MiAppDePrueba\App Consola\obj\Debug\net6.0\App Consola.pdb
+C:\Users\cmard\OneDrive\Documentos\Desarrollo\Csharp\MiAppDePrueba\App Consola\obj\Debug\net6.0\App Consola.genruntimeconfig.cache
+C:\Users\cmard\OneDrive\Documentos\Desarrollo\Csharp\MiAppDePrueba\App Consola\obj\Debug\net6.0\ref\App Consola.dll

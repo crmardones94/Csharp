@@ -1,0 +1,62 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    ViewData["Title"] = "Home Page";
+
+    string convertirEnMayuscula(string valor)
+    {
+        return valor;
+    }
+
+    DateTime hoy = DateTime.Now;
+
+    var nombres = new List<string>() { "Cristian", "Lucho", "Alexander" };
+}
+
+<div class="text-center">
+
+    <!--
+    <ul>
+    @foreach (var nombre in nombres)
+    {
+                    <li>@nombre</li>
+    }
+    </ul>
+    -->
+    <h1 class="display-4">Portafolio @convertirEnMayuscula(@Model.Nombre) (@Model.Edad)</h1>
+    <!--
+    <h1 class="display-4">Prueba a lo vio @convertirEnMayuscula(@Model.Nombre) (@Model.Edad)</h1>
+    <h4>@hoy.ToString("dd/MM/yyyy hh:mm:ss tt")</h4>
+    @if (Model.Edad >= 18)
+    {
+                <h4>Eres mayor de edad</h4>
+
+            <button>Entra</button>
+    }
+    else
+    {
+                <h4>Eres menor imbecil</h4>
+    }
+    -->
+    <h2>que pasa cotorra</h2>
+
+    <img id="foto"
+         src="~/imagenes/foto.png" alt="que wea enfermo" />
+</div>
+
+<div class="text-center">
+    <img id="imagen-dotnet" src="~/Imagenes/dotnet-imagen-2.png" alt="dotnet logos" />
+</div>
+
+<div class="row justify-content-center text-center bg-primary">
+    <div class="col col-7 seccion-bienvenida">
+        <h1>Tarjeta Wifi</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet dolor sit amet ex blandit condimentum.
+            Ut et mauris magna. Phasellus vitae efficitur tellus, non porttitor nisl. Sed id cursus magna.
+            Mauris a ligula velit. Donec sodales purus id placerat varius. Sed malesuada ut nisi nec elementum.
+        </p>
+    </div>
+</div>

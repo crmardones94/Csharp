@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "zJP6WIwSV8F3K3+i3LO0uVH5uuSPnwWUAlp5lZdQ8XkP1WugrKuTOVVDKxYpYIrPw3Vd/I5IU7eJgg4jt5oMog==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cmard\\OneDrive\\Documentos\\Desarrollo\\Csharp\\ApiSistemaRegistro\\ApiSistemaRegistro\\ApiSistemaRegistro.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cmard\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\cmard\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\cmard\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\cmard\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\cmard\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\cmard\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

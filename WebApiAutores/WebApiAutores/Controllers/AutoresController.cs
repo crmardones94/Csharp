@@ -13,11 +13,34 @@ namespace WebApiAutores.Controllers
     public class AutoresController: ControllerBase //heredando de clase base la cual es la clase tipica de web api
     {
         private readonly AplicationDBcontext context;
+        private readonly IServicio servicio;
+        private readonly ServicioTransient servicioTransient;
+        private readonly ServicioScoped servicioScoped;
+        private readonly ServicioSingleton servicioSingleton;
 
-        public AutoresController(AplicationDBcontext context)
+        public AutoresController(AplicationDBcontext context, IServicio servicio, ServicioTransient servicioTransient, ServicioScoped servicioScoped, ServicioSingleton servicioSingleton)
         {
-            
+            this.context = context;   
             this.servicio = servicio;
+            this.servicioTransient = servicioTransient;
+            this.servicioScoped = servicioScoped;
+            this.servicioSingleton = servicioSingleton;
+        }
+
+        [HttpGet("GUID")]
+        public ActionResult obtenerGuid()
+        {
+            return Ok(new
+            {
+                AutoresControllerTransient = servicioTransient.guid,
+                AutoresControllerScoped = servicioScoped.guid,
+                AutoresControllerSingleton = servicioSingleton.guid,
+                ServicioA_transient = servicio.obtenerTransient(),
+                ServicioA_Scoped = servicio.obtenerScoped(),
+                ServicioA_Singleton = servicio.obtenerSingleton()
+
+            });
+
         }
 
         [HttpGet] //hereda de la ruta del controlador api/autores
